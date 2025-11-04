@@ -66,7 +66,8 @@ EDA was performed to extract meaningful insights:
 ### 🔹 **Recommendation System**
 - Implemented **K-Means Clustering** to segment users by travel preferences.  
 - Provides personalized attraction recommendations based on cluster similarity and attraction ratings.  
-- Can also be extended to **Collaborative Filtering** or **Content-Based Filtering**.
+- Evaluated using **RMSE** and **MAP**.
+
 
 ---
 
@@ -93,21 +94,10 @@ A fully interactive Streamlit app where users can:
 
 ---
 
-## 🧰 Tech Stack
-| Category | Tools Used |
-|-----------|-------------|
-| **Frontend** | Streamlit, Plotly |
-| **Data Processing** | Pandas, NumPy |
-| **Modeling** | Scikit-learn, XGBoost, LightGBM |
-| **Visualization** | Plotly Express, Matplotlib |
-| **Deployment** | Streamlit Cloud / Hugging Face Spaces / AWS |
-
----
-
 ## 📂 Project Structure
 
 - `Tourism.ipynb` — Main Colab notebook
-- `City
+- `data/` - All Excel data files
   
 ---
 
@@ -116,8 +106,8 @@ A fully interactive Streamlit app where users can:
 1. **Open the Notebook**  
    Upload or open `Tourism.ipynb` in [Google Colab](https://colab.research.google.com/).
 
-2. **Upload the Dataset**  
-   - `All xlsx files` (raw dataset)
+2. **Upload the Data**  
+   - Place all `.xlsx` files in the `data/` folder.
 
 3. **Run All Cells**  
    The notebook performs:  
